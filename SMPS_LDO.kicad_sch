@@ -2152,16 +2152,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 46.99) (xy 106.68 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3f6f84-68f5-44d6-9d38-a8bdd9b6ec70")
-	)
-	(wire
-		(pts
 			(xy 148.59 128.27) (xy 148.59 135.89)
 		)
 		(stroke
@@ -2222,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 63.5) (xy 152.4 63.5)
+			(xy 110.49 63.5) (xy 152.4 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2329,16 +2319,6 @@
 			(type default)
 		)
 		(uuid "437b0908-ef2b-4269-82f6-d681e27e19df")
-	)
-	(wire
-		(pts
-			(xy 111.76 54.61) (xy 105.41 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45dba91e-4977-4659-817e-bc86a85ba199")
 	)
 	(wire
 		(pts
@@ -2482,16 +2462,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 49.53) (xy 120.65 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72464a57-a19a-4bcf-b70d-6a9a54d12106")
-	)
-	(wire
-		(pts
 			(xy 121.92 121.92) (xy 123.19 121.92)
 		)
 		(stroke
@@ -2512,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 63.5) (xy 111.76 54.61)
+			(xy 110.49 63.5) (xy 110.49 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2529,6 +2499,16 @@
 			(type default)
 		)
 		(uuid "7e48987d-ce1a-4f05-9916-69b620535c2e")
+	)
+	(wire
+		(pts
+			(xy 114.3 49.53) (xy 120.65 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81825bbf-397f-4dd8-b724-f44be1846b24")
 	)
 	(wire
 		(pts
@@ -2622,6 +2602,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 35.56) (xy 106.68 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0fd1a4b-d78c-4e05-96e7-439220c3d80b")
+	)
+	(wire
+		(pts
 			(xy 138.43 114.3) (xy 148.59 114.3)
 		)
 		(stroke
@@ -2659,6 +2649,16 @@
 			(type default)
 		)
 		(uuid "adf1b5d9-774b-4bbf-aea2-5aa179f59bb8")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf1fcab-5fcc-40f9-9f5d-3b226f52ad4b")
 	)
 	(wire
 		(pts
@@ -2752,16 +2752,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 49.53) (xy 114.3 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdbc1f46-0914-424b-a243-77adfebc581e")
-	)
-	(wire
-		(pts
 			(xy 91.44 114.3) (xy 96.52 114.3)
 		)
 		(stroke
@@ -2832,6 +2822,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 46.99) (xy 105.41 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66406e2-d990-4dfe-84d1-87737e740a9d")
+	)
+	(wire
+		(pts
 			(xy 71.12 110.49) (xy 71.12 114.3)
 		)
 		(stroke
@@ -2839,16 +2839,6 @@
 			(type default)
 		)
 		(uuid "e7126681-0e66-4a26-b7bd-27149a76bd0b")
-	)
-	(wire
-		(pts
-			(xy 106.68 46.99) (xy 106.68 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8802f1e-5726-4421-aecf-fb317f9a5058")
 	)
 	(wire
 		(pts
@@ -2909,6 +2899,16 @@
 			(type default)
 		)
 		(uuid "f690b549-e4e9-411f-a130-620e7e695c74")
+	)
+	(wire
+		(pts
+			(xy 105.41 54.61) (xy 110.49 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa91fae6-5c2c-441b-a1a5-fabb2b8bdbb3")
 	)
 	(wire
 		(pts
@@ -2988,6 +2988,28 @@
 		)
 		(uuid "6f496f83-f6ec-4ed4-b9ea-14a1fd574e55")
 	)
+	(label "MCP16331_LOUT"
+		(at 157.48 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09f88f15-d672-42dc-9b13-3f28d3e30b4c")
+	)
+	(label "MCP16331_V_{FB}"
+		(at 128.27 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c4fa7d2-646b-4121-bfb8-5dab8b4c6145")
+	)
 	(label "RST_STM1818TWX7F"
 		(at 153.67 147.32 180)
 		(fields_autoplaced yes)
@@ -2998,6 +3020,28 @@
 			(justify right bottom)
 		)
 		(uuid "27f89de6-3b9a-4dce-93fd-caaa725fb762")
+	)
+	(label "MCP16331_BOOST"
+		(at 109.22 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d4794ab-3151-49af-bedb-ebebf50944df")
+	)
+	(label "MCP16331_SW"
+		(at 116.84 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53af3f0f-2c5b-4d72-96d2-59d710687cf5")
 	)
 	(hierarchical_label "RST_STM1818TWX7F"
 		(shape bidirectional)
@@ -4670,6 +4714,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 50.8 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b21f1607-216b-412b-a742-31b3a975daf1")
+		(property "Reference" "#PWR011"
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VIN_SMPS"
+			(at 57.912 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 50.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6686a1c-fdaa-4dd1-8dad-72d29591d278")
+		)
+		(instances
+			(project "USBPD_Board"
+				(path "/b3855754-13ea-49fc-935d-9d42ea1a9383/a517b6df-ecb3-459b-b406-0995d5766078"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 128.27 125.73 0)
 		(unit 1)
@@ -4869,71 +4978,6 @@
 			(project "USBPD_Board"
 				(path "/b3855754-13ea-49fc-935d-9d42ea1a9383/a517b6df-ecb3-459b-b406-0995d5766078"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 50.8 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9319b68-464c-4bf4-a40a-9dae36ce698e")
-		(property "Reference" "#PWR053"
-			(at 50.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 54.864 44.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 50.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aabd919f-e346-4bfc-8986-ee1ff1ca7d01")
-		)
-		(instances
-			(project "USBPD_Board"
-				(path "/b3855754-13ea-49fc-935d-9d42ea1a9383/a517b6df-ecb3-459b-b406-0995d5766078"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
