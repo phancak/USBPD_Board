@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "b3855754-13ea-49fc-935d-9d42ea1a9383")
 	(paper "USLetter")
+	(title_block
+		(title "USB-PD Board")
+		(date "2025-12-03")
+		(rev "B")
+		(company "Peter Hancak")
+	)
 	(lib_symbols)
 	(junction
 		(at 184.15 133.35)

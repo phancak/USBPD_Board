@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "43f05fc1-aa80-4293-8440-3767d604146f")
 	(paper "USLetter")
+	(title_block
+		(title "USB-PD Board")
+		(date "2025-12-03")
+		(rev "B")
+		(company "Peter Hancak")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
@@ -1772,12 +1778,6 @@
 		(uuid "50b52562-3038-4b76-91c4-b2a13d00c972")
 	)
 	(junction
-		(at 186.69 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51070555-3d9d-40e1-95e5-a2be6fe83877")
-	)
-	(junction
 		(at 100.33 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1987,6 +1987,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 62.23) (xy 186.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea0bbd5-6949-4e95-ae39-90c71fe2ae1b")
+	)
+	(wire
+		(pts
 			(xy 209.55 146.05) (xy 200.66 146.05)
 		)
 		(stroke
@@ -1994,16 +2004,6 @@
 			(type default)
 		)
 		(uuid "2ed5286d-f204-4bd2-9ef2-6b0d983a8bcd")
-	)
-	(wire
-		(pts
-			(xy 194.31 62.23) (xy 186.69 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35e7fa6f-a1a7-4d8e-b26d-646ed966044e")
 	)
 	(wire
 		(pts
@@ -2044,6 +2044,16 @@
 			(type default)
 		)
 		(uuid "3c33a8ef-bd46-48ac-88f0-bd615a9c87d0")
+	)
+	(wire
+		(pts
+			(xy 194.31 62.23) (xy 186.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd496ef-1ed8-4f58-a143-c37e39775058")
 	)
 	(wire
 		(pts
@@ -2334,16 +2344,6 @@
 			(type default)
 		)
 		(uuid "d2d5f880-4bd8-41ef-aea4-3419352195db")
-	)
-	(wire
-		(pts
-			(xy 186.69 62.23) (xy 186.69 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d50270d3-c247-4a16-bd84-5a623faa6c8c")
 	)
 	(wire
 		(pts
@@ -3822,6 +3822,73 @@
 			(project "USBPD_Board"
 				(path "/b3855754-13ea-49fc-935d-9d42ea1a9383/7fc71731-05e0-47b0-9baf-64dcc51f2872"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 186.69 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c009b11-7326-4d6f-b2a3-317bb52a561b")
+		(property "Reference" "#PWR019"
+			(at 186.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 184.658 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0feb921b-281f-4cbd-80e1-5b232fa93725")
+		)
+		(instances
+			(project "USBPD_Board"
+				(path "/b3855754-13ea-49fc-935d-9d42ea1a9383/7fc71731-05e0-47b0-9baf-64dcc51f2872"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
