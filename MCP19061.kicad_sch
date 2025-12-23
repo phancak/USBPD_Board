@@ -6465,7 +6465,7 @@
 		)
 		(uuid "ff6836bd-fe56-4a2f-accd-cb12fb89e6be")
 	)
-	(text_box "Notes:\n- VIN: 6 to 36V\n- VDDIO: 2.7 to 5.3V, determines I2C, SYNC, ENABLE, nALERT, nSHUTDOWN Pins\n- VDD: 4.8 to 5.3V\n\n- nALERT pin is an open drain pin. It is pulled low when an enabled internal event is detected.\n- ENABLE Enable pin. Starts the power train\n- nSHUTDOWN Shutdown pin. Pull low to put the device in low power mode\n- ADR Analog to Digital Converters Reference\n- ADR0 I2C address setting pin. Connect a resistor to GNDA\n- VDD_IO Digital interface supply pin\n- ADCREF is the output of the ADC reference. Connect a capacitor to GNDA.\n- ISPIN Positive connection of the input current sense amplifier\n- ISNIN Negative connection of the input current sense amplifier\n- DVDD is the output of the digital voltage regulator. Connect a capacitor to GNDD.\n- AVDD is the output of the analog voltage regulator. Connect a capacitor to GNDA.\n- SYNC pin, when enabled, is used to synchronize the switching frequency and phase of multiple devices. It may be configured as input or output."
+	(text_box "Notes:\n- VIN: 6 to 36V\n- VDDIO: 2.7 to 5.3V, determines I2C, SYNC, ENABLE, nALERT, nSHUTDOWN Pins\n- VDD: 4.8 to 5.3V\n\n- nALERT pin is an open drain pin. It is pulled low when an enabled internal event is detected.\n- ENABLE Enable pin. Starts the power train\n- nSHUTDOWN Shutdown pin. Pull low to put the device in low power mode\n- ADR Analog to Digital Converters Reference\n- ADR0 I2C address setting pin. Connect a resistor to GNDA\n- VDD_IO Digital interface supply pin\n- ADCREF is the output of the ADC reference. Connect a capacitor to GNDA.\n- ISPIN Positive connection of the input current sense amplifier\n- ISNIN Negative connection of the input current sense amplifier\n- DVDD is the output of the digital voltage regulator. Connect a capacitor to GNDD.\n- AVDD is the output of the analog voltage regulator. Connect a capacitor to GNDA.\n- SYNC pin, when enabled, is used to synchronize the switching frequency and phase of multiple devices. It may be configured as input or output.\n\nI2C ADDRESS\n- Set either innternally through REGISTER 6-36 ADR0EN (default 1)\n  - '0' = The I2C address is set internally using DEVID<4:0>\n  - '1' = The I2C address is set via the ADR0 pin\n- 10k R on ADR0 Sets I2C Addr (hex) to 0x53"
 		(exclude_from_sim no)
 		(at 194.31 95.885 0)
 		(size 64.77 49.53)
@@ -6503,6 +6503,16 @@
 			)
 		)
 		(uuid "1c3943c9-658d-4545-b957-a6fad841a750")
+	)
+	(text "Sets I2C Addr (hex) to 0x53 (10k R on ADR0)"
+		(exclude_from_sim no)
+		(at 52.578 117.602 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "22bd58dd-c406-4f88-bcd0-8c117a044327")
 	)
 	(text "EEH_AZKV221UB\n"
 		(exclude_from_sim no)
@@ -8356,7 +8366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "10k"
 			(at 73.66 131.572 90)
 			(effects
 				(font

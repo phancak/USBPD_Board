@@ -2830,9 +2830,9 @@
 		)
 		(uuid "f8920842-daab-4576-abcf-acb1af8d34b1")
 	)
-	(text "3A - 5, 9, 15V\n5A - 20, 28, 36, 48V"
+	(text "5V (3A MAX) "
 		(exclude_from_sim no)
-		(at 205.232 58.928 0)
+		(at 211.836 57.912 0)
 		(effects
 			(font
 				(size 1 1)
