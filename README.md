@@ -38,7 +38,7 @@ At the core is the **MCP19061-E/RTB**, a Digitally Enhanced Power Analog (DEPA) 
 | **Main Controller** | Microchip MCP19061 (Integrated MCU + PWM) |
 | **USB Interface** | MCP2221A-I/ST (USB-to-I2C/UART Bridge) |
 | **Input Range** | Negotiated USB-PD / 12V DC / Battery |
-| **Topology** | Synchronous Buck Converter |
+| **Topology** | Synchronous Buck-Boost Converter |
 | **Output Ports** | 4x Interconnect Headers |
 
 ---
