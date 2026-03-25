@@ -2947,8 +2947,8 @@
 	)
 	(text_box "RESET\n- The RAA489118 \n- MCP22301T-2I/KYX \n  - ATSAMD20E RESET pin itself has an internal pull-up resistor, hence it is optional to add any external pull-up resistor.\n  - MCP22350 Has inner pull-up\n- STM32L100C6U6A The NRST pin input driver uses CMOS technology. It is connected to a permanent pull-up resistor,\n- STM1818TWX7F voltage supervisor has own pull up 5k5\n- BQ41Z50RSNT to reset power cycle\n"
 		(exclude_from_sim no)
-		(at 307.975 151.13 0)
-		(size 93.345 39.37)
+		(at 43.18 169.545 0)
+		(size 100.33 16.51)
 		(stroke
 			(width 0)
 			(type dash)
