@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "b3855754-13ea-49fc-935d-9d42ea1a9383")
 	(paper "USLetter")
 	(title_block
@@ -322,17 +322,23 @@
 	(sheet
 		(at 193.04 44.45)
 		(size 48.26 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "7fc71731-05e0-47b0-9baf-64dcc51f2872")
 		(property "Sheetname" "Interfaces"
 			(at 193.04 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,6 +348,8 @@
 		)
 		(property "Sheetfile" "Interfaces.kicad_sch"
 			(at 193.04 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,73 +359,73 @@
 		)
 		(pin "I2C1_SDA_HDR" bidirectional
 			(at 193.04 53.34 180)
+			(uuid "2ba93b22-ff96-405a-99d6-32c91aed21f2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2ba93b22-ff96-405a-99d6-32c91aed21f2")
 		)
 		(pin "I2C1_SCL_HDR" bidirectional
 			(at 193.04 50.8 180)
+			(uuid "2bfb791c-c900-4173-afce-95f3e6dbff2a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2bfb791c-c900-4173-afce-95f3e6dbff2a")
 		)
 		(pin "RST_BTN" output
 			(at 193.04 87.63 180)
+			(uuid "a66a84e6-2f2f-4eea-9598-d4f94fac27bc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a66a84e6-2f2f-4eea-9598-d4f94fac27bc")
 		)
 		(pin "I{slash}O_HDR0" bidirectional
 			(at 193.04 58.42 180)
+			(uuid "8588045c-3cb9-4f37-8bed-facc8b61e85c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8588045c-3cb9-4f37-8bed-facc8b61e85c")
 		)
 		(pin "I{slash}O_HDR1" bidirectional
 			(at 193.04 60.96 180)
+			(uuid "1ca36427-b21b-44b6-a809-882ab4850213")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1ca36427-b21b-44b6-a809-882ab4850213")
 		)
 		(pin "I{slash}O_HDR3" bidirectional
 			(at 193.04 66.04 180)
+			(uuid "3616c8c1-feec-4d93-8049-e0f8c6c648a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3616c8c1-feec-4d93-8049-e0f8c6c648a7")
 		)
 		(pin "I{slash}O_HDR2" bidirectional
 			(at 193.04 63.5 180)
+			(uuid "d9cd2fc3-5d3c-4cef-9b9f-db474e513823")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d9cd2fc3-5d3c-4cef-9b9f-db474e513823")
 		)
 		(instances
 			(project "USBPD_Board"
@@ -430,17 +438,23 @@
 	(sheet
 		(at 36.83 96.52)
 		(size 48.26 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "8ca2a2be-b278-4705-baff-3e3f01daf622")
 		(property "Sheetname" "Power_IO"
 			(at 36.83 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -450,6 +464,8 @@
 		)
 		(property "Sheetfile" "Power_IO.kicad_sch"
 			(at 36.83 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -459,13 +475,13 @@
 		)
 		(pin "PWR_RST" input
 			(at 85.09 130.81 0)
+			(uuid "c1dc41e7-8235-463a-8240-962ae4bd60b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c1dc41e7-8235-463a-8240-962ae4bd60b8")
 		)
 		(instances
 			(project "USBPD_Board"
@@ -478,17 +494,23 @@
 	(sheet
 		(at 115.57 44.45)
 		(size 48.26 95.25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "9590177a-18e0-45c2-bbc0-12c0f8516d83")
 		(property "Sheetname" "MCP19061"
 			(at 115.57 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -498,6 +520,8 @@
 		)
 		(property "Sheetfile" "MCP19061.kicad_sch"
 			(at 115.57 140.9196 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -507,53 +531,53 @@
 		)
 		(pin "NSHUTDOWN" input
 			(at 163.83 130.81 0)
+			(uuid "e48ae52c-ca08-4873-97bf-0d52ef6b23ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e48ae52c-ca08-4873-97bf-0d52ef6b23ec")
 		)
 		(pin "SCL" input
 			(at 163.83 50.8 0)
+			(uuid "bb775a82-c66e-4f06-a5cb-c316b1799185")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bb775a82-c66e-4f06-a5cb-c316b1799185")
 		)
 		(pin "NALERT" output
 			(at 163.83 58.42 0)
+			(uuid "87673dd8-b667-45bc-a821-e8e31d19ba70")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "87673dd8-b667-45bc-a821-e8e31d19ba70")
 		)
 		(pin "SYNC" input
 			(at 163.83 60.96 0)
+			(uuid "d9f88f6b-a9d1-405a-8add-0cd689c4a1e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d9f88f6b-a9d1-405a-8add-0cd689c4a1e1")
 		)
 		(pin "SDA" bidirectional
 			(at 163.83 53.34 0)
+			(uuid "3f33ca34-01f0-4e66-8831-5f6a34fb6514")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3f33ca34-01f0-4e66-8831-5f6a34fb6514")
 		)
 		(instances
 			(project "USBPD_Board"
@@ -566,17 +590,23 @@
 	(sheet
 		(at 36.83 44.45)
 		(size 48.26 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "a517b6df-ecb3-459b-b406-0995d5766078")
 		(property "Sheetname" "SMPS_LDO"
 			(at 36.83 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -586,6 +616,8 @@
 		)
 		(property "Sheetfile" "SMPS_LDO.kicad_sch"
 			(at 36.83 86.3096 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -595,13 +627,13 @@
 		)
 		(pin "RST_STM1818TWX7F" bidirectional
 			(at 85.09 80.01 0)
+			(uuid "d7d0b5c4-4366-43f3-9303-34babfd09535")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d7d0b5c4-4366-43f3-9303-34babfd09535")
 		)
 		(instances
 			(project "USBPD_Board"
@@ -614,17 +646,23 @@
 	(sheet
 		(at 193.04 102.87)
 		(size 48.26 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "f3dbce08-17de-4a11-8bd4-40e77de9f2ae")
 		(property "Sheetname" "USB"
 			(at 193.04 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -634,6 +672,8 @@
 		)
 		(property "Sheetfile" "USB.kicad_sch"
 			(at 193.04 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,73 +683,73 @@
 		)
 		(pin "GP0" input
 			(at 193.04 118.11 180)
+			(uuid "2adb0f84-a296-4d40-80ba-5ff96d055a6d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2adb0f84-a296-4d40-80ba-5ff96d055a6d")
 		)
 		(pin "GP1" input
 			(at 193.04 120.65 180)
+			(uuid "21dbe1a0-ee5e-44cd-bbb3-91079699df41")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "21dbe1a0-ee5e-44cd-bbb3-91079699df41")
 		)
 		(pin "~{RST}" input
 			(at 193.04 133.35 180)
+			(uuid "fe62e0b0-7128-4a7c-980e-37b1b6c1d989")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fe62e0b0-7128-4a7c-980e-37b1b6c1d989")
 		)
 		(pin "SDA" input
 			(at 193.04 111.76 180)
+			(uuid "fbef8312-22a2-48f1-9494-7bcacada0d9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fbef8312-22a2-48f1-9494-7bcacada0d9c")
 		)
 		(pin "SCL" input
 			(at 193.04 109.22 180)
+			(uuid "6c6d4fdf-9d56-49d3-b0b6-e01da624910f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6c6d4fdf-9d56-49d3-b0b6-e01da624910f")
 		)
 		(pin "GP2" input
 			(at 193.04 123.19 180)
+			(uuid "08b99b3a-7cef-4498-9222-8e0994b77151")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "08b99b3a-7cef-4498-9222-8e0994b77151")
 		)
 		(pin "GP3" input
 			(at 193.04 125.73 180)
+			(uuid "d81c7939-e0f7-42a2-81ee-81a9159f1c68")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d81c7939-e0f7-42a2-81ee-81a9159f1c68")
 		)
 		(instances
 			(project "USBPD_Board"
@@ -724,4 +764,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
