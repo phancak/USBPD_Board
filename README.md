@@ -1,4 +1,11 @@
 # ⚡ Modular Power Distribution & USB-PD System
+
+<div align="center">
+  <img src="Docs/USBPD_Board_PCB.png" alt="USBPD PCB 3D Render" width="800">
+  <br>
+  <em>4-layer PCB diagram.</em>
+</div>
+
 ### Intelligent Multi-Source Power Management for Mixed-Signal Platforms
 
 ## 📑 Quick Access
